@@ -1,0 +1,19 @@
+[package]
+name = "rtranslate"
+version = "0.1.0"
+edition = "2024"
+authors = ["Tien Dat <ntd.k108cva@gmail.com>"]
+description = "A simple, dependency-free Rust wrapper for Google Translate public web API"
+repository = "https://github.com/ntdat104/rtranslate"
+license = "MIT"
+readme = "README.md"
+keywords = ["translate", "google", "language", "cli", "rust"]
+categories = ["api-bindings", "text-processing"]
+
+[lib]
+name = "rtranslate"
+path = "src/lib.rs"
+
+[[bin]]
+name = "example"
+path = "src/main.rs"
