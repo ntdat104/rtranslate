@@ -17,3 +17,6 @@ path = "src/lib.rs"
 [[bin]]
 name = "example"
 path = "src/main.rs"
+
+[dependencies]
+rayon = "1.9"
